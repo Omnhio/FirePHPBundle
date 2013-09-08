@@ -8,6 +8,14 @@ The FirePHPBundle provides simple integration FirePHP for your Symfony2 project.
 
 ### Add FirePHPBundle to your vendor/bundles dir
 
+#### Using composer (recommended)
+Require the bundle via composer
+
+    "require-dev": {
+        "dvelopment/firephp-bundle": "dev-master"
+    }
+
+
 #### Use deps file
 Add the following lines to de /deps file
 
@@ -37,7 +45,7 @@ Add the following lines to de /deps file
     }
 
 
-### Add FireBugBundle to your autoload.php
+### Add FireBugBundle to your autoload.php (only needed if not installed via composer)
 
     // app/autoload.php
     $loader = new UniversalClassLoader();
@@ -49,7 +57,7 @@ Add the following lines to de /deps file
 
 ### Add FirePHPBundle to your application config
 
-    // app/config/config.yml
+    // app/config/config_dev.yml
 
 	// ...
 
