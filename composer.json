@@ -1,5 +1,5 @@
 {
-    "name": "dVelopment/firephp-bundle",
+    "name": "dvelopment/firephp-bundle",
     "description": "The FirePHPBundle provides simple integration FirePHP for your Symfony2 project.",
     "keywords": ["symfony2", "firephp", "bundle"],
     "type": "symfony-bundle",
