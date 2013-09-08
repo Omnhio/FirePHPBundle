@@ -1,0 +1,17 @@
+{
+    "name": "dVelopment/firephp-bundle",
+    "description": "The FirePHPBundle provides simple integration FirePHP for your Symfony2 project.",
+    "keywords": ["symfony2", "firephp", "bundle"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "FirePHPBundle\\": ""
+        }
+    },
+    "target-dir": "firephp/FirePHPBundle"
+}
